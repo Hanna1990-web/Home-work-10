@@ -219,9 +219,8 @@ button {
 }
 .block-1 {
   position: relative;
-  box-sizing: border-box;
   width: 100%;
-  max-width: 750px;
+  max-width: 650px;
   min-height: 150px;
   margin: 0 auto 24px;
   padding: 24px 24px 70px;
@@ -246,6 +245,7 @@ header {
   top: 0;
   left: 0;
   width: 100%;
+  z-index: 100;
 }
 .sticky-wrapper {
   height: 300px;
