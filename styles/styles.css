@@ -199,10 +199,6 @@ section li:not(:last-child) {
 }
 .menu li {
   display: inline;
-  gap: 16px;
-}
-.menu li:last-child {
-  margin-right: 0;
 }
 .menu a {
   display: inline-block;
@@ -288,6 +284,7 @@ footer address {
 }
 #hobbies ul {
   display: flex;
+  align-items: flex-start;
   flex-wrap: wrap;
   gap: 8px 12px;
   list-style: none;
@@ -298,8 +295,4 @@ footer address {
   background-color: thistle;
   color: #333;
   border-radius: 16px;
-}
-#hobbies li:not(:last-child),
-#gallery li:not(:last-child) {
-  margin-bottom: 0;
 }
